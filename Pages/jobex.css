@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Calibri';
+    scroll-behavior: smooth;
+}
+
+
+section{
+    min-height: 100vhf;
+    padding: 50px;
+    margin-top: 30px;
+}
+
+.section-title{
+    position: relative;
+    color: #409fbf;
+    font-weight: 800;
+    font-size: 1.5em;
+    margin-bottom: 60px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.section-title:before{
+    content: '';
+    position: absolute;
+    top: 56px;
+    left: 50%;
+    width: 200px;
+    height: 4px;
+    background: #409fbf;
+    transform: translateX(-50%);
+}
+
+header{
+    z-index: 999;
+    position: fixed;
+    background:rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+header .brand{
+    font-size: 1.1em;
+    font-weight: 600;
+    font-family: "Calibri";
+    color: #fff;
+    text-decoration: none;
+}
+
+header .menu-btn{
+    position: absolute;
+    background: url(images/home-icon.png)no-repeat;
+    background-size: 25px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    right: 0;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+body{
+    background:rgb(35, 35, 35);
+    justify-content: center;
+}
+
+.content .card{
+    margin-top: 30px;
+}
+.content .card{
+    background: #111;
+    box-shadow: 0 5px 25px rgb(0, 0, 0);
+    font-family: 'Calibri';
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.content .card .head h2{
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+.content .card .head h3{
+    margin-top: 24.4px;
+    font-size: 1.2em;
+    bottom: 0;
+}
+.content .card span{
+    margin-top: 10px;
+    font-size: 1em;
+}
+.content .card .line{
+    margin-top: 10px;
+    content: '';
+    position: relative;
+    width: 100%;
+    height: 4px;
+    background: #409fbf;
+    border-radius: 100%;
+}
+.content .card .head{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.content .card .head .card-icon{
+    display: flex;
+    position: relative;
+    width: auto;
+    margin: 5px;
+    justify-content: flex-end;
+}
+
+.content .card .head .icon{
+    position: relative;
+    background: rgb(15, 17, 21);
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.content .card .head .left, .right{
+    width: 40%;
+}
+
+.content .card .head .left{
+    justify-content: left;
+    text-align: left;
+}
+
+.content .card .head .right{
+    justify-content: right;
+    text-align: right;
+}
+
+.back{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.btn{
+    background-color: #409fbf;
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Calibri';
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    justify-content: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.footer{
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .content{
+    padding-top: 10px;
+}
+
+.footer .content h2{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.footer .content span{
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+
+.footer .content strong{
+    bottom: 0;
+    color: #cecece;
+}
+
+@media (max-width: 1070px){
+    section{
+        padding: 25px;
+    }
+
+    .content .card .head h3{
+        font-size: 1.1em;
+    }
+}
