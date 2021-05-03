@@ -217,7 +217,8 @@ body{
 }
 
 .about .icons-pane img{
-    height: 50px;
+    max-height: 50px;
+    height: auto;
     margin: 10px;
 }
 
@@ -535,6 +536,11 @@ body{
     margin-top: 20px;
 }
 
+.contact .content a{
+    text-decoration: none;
+    text-transform: none;
+}
+
 .contact .content .row{
     display: flex;
     justify-content: center;
@@ -624,8 +630,15 @@ body{
     resize: none;
 }
 
+.contact-form .button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
 
-.contact-form .input-box .send-btn{
+
+.contact-form .button .send-btn{
     color: #fff;
     background: #409fbf;
     display: inline-block;
@@ -633,41 +646,58 @@ body{
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2px;
-    width: 100%;
+    width: 25%;
     border: none;
     cursor: pointer;
     transition: 0.5s ease;
+    border-radius: 5px;
+    padding: 10px;
 }
 
-.contact-form .input-box .send-btn:hover{
+.contact-form .button .send-btn:hover{
     background:#324ab2;
 }
 
 .footer{
-    background: #409fbf; 
+    background: #111;
     color: #fff;
     text-align: center;
     padding-right: 10px;
+    height: 80px;
 }
 
-.footer .footer-title{
-    font-size: 20px;
+.footer .content{
+    padding-top: 10px;
+}
+
+.footer .content h2{
+    font-size: 1.2em;
     font-weight: 400;
+}
+
+.footer .content span{
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+
+.footer .content strong{
+    bottom: 0;
+    color: #cecece;
 }
 
 .scrollToTop-btn{
     z-index: 999;
     position: fixed;
-    background: #409fbf;
+    background: #324ab2;
     color: #fff;
-    width: 45px;
-    height: 45px;
-    right: 10px;
-    bottom: 10px;
+    width: 30px;
+    height: 30px;
+    right: 15px;
+    bottom: 15px;
     font-size: 22;
     text-align: center;
-    line-height: 45px;
-    border-radius: 3px;
+    line-height: 30px;
+    border-radius: 50%;
     cursor: pointer;
     pointer-events: none;
     opacity: 0;
@@ -792,6 +822,20 @@ body{
 
     .main .content .columns-col-left .media-icons .icon{
         padding: auto;
+    }
+
+    .about .icons-pane{
+        display: flex;
+        width: auto;
+        position: relative;
+        flex-direction: row;
+    }
+
+    .about .icons-pane img{
+        position: relative;
+        max-height: 50px;
+        height: 30%;
+        margin: 10px;
     }
 
     .education .school .content{
