@@ -7,7 +7,7 @@
 }
 
 section{
-    min-height: 100vh;
+    min-height: 100vhf;
     padding: 100px 100px;
 }
 
@@ -110,6 +110,7 @@ section{
 }
 
 .icon{
+    width: 30px;
     position: relative;
     margin: 10px;
 }
@@ -547,6 +548,7 @@ body{
 .contact .content .contact-icon img{
     width: 30%;
     margin-bottom: 5px;
+    padding: 5%
 }
 
 .contact .content .info h3{
