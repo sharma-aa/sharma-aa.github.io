@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Calibri';
+    font-family: 'Arial Light';
     scroll-behavior: smooth;
 }
 
@@ -75,7 +75,7 @@ section{
     line-height: 70px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-size: 'Calibri';
+    font-size: 'Arial Light';
 }
 
 .animated-text h3:nth-child(1){
@@ -135,7 +135,7 @@ header.responsive_header{
 header .brand{
     font-size: 1.1em;
     font-weight: 600;
-    font-family: "Calibri";
+    font-family: "Arial Light";
     color: #fff;
     text-decoration: none;
 }
@@ -150,7 +150,7 @@ header .navigation a{
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: "Calibri";
+    font-family: "Arial Light";
     margin-left: 25px;
     margin-top: auto;
 }
@@ -384,7 +384,7 @@ body{
 .title p{
     font-size: 1.2em;
     width: 75%;
-    font-family: 'Calibri';
+    font-family: 'Arial Light';
     font-weight: 500;
 }
 
@@ -406,7 +406,7 @@ body{
     background-color: #409fbf;
     color: #fff;
     font-size: 1em;
-    font-family: 'Calibri';
+    font-family: 'Arial Light';
     font-weight: 600;
     display: inline-block;
     padding: 10px 10px;
@@ -533,7 +533,7 @@ body{
     justify-content: center;
     font-size: 1.2em;
     font-weight: 600;
-    font-family: 'Calibri';
+    font-family: 'Arial Light';
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -622,7 +622,7 @@ body{
 
 .contact-form h3{
     font-size: 1.6em;
-    font-family: 'Calibri';
+    font-family: 'Arial Light';
     text-align: center;
     font-weight: 600;
     margin-bottom: 40px;
@@ -812,6 +812,11 @@ body{
         flex-direction: row;
     }
 
+    .main .content h2 span{
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+
     .main .content .columns-col-right{
         justify-content: center;
         margin-top: 100px;
@@ -905,6 +910,7 @@ body{
         text-transform: uppercase;
         font-weight: 800;
         text-align: left;
+        font-size: 1.2em;
     }
 
     .experience .content .card .icon{
