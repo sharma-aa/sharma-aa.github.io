@@ -12,8 +12,10 @@ section{
 
 body{
     height: 100%;
-    background:rgb(35, 35, 35);
+    background:url("images/bkg3.png") no-repeat;
+    background-size: cover;
     justify-content: center;
+    height: 98.8vh;
 }
 
 
@@ -27,12 +29,12 @@ body{
 }
 .message h1{
     font-family: 'Calibri';
-    font-size: 2em;
+    font-size: 3em;
     color: #cecece;
 }
 .message h2{
     font-family: 'Calibri';
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: #cecece;
 }
 
@@ -89,35 +91,8 @@ header .menu-btn{
     cursor: pointer;
     text-transform: uppercase;
     font-size: 1em;
-    margin: 100px;
+    margin: 150px;
 }
-
-.footer{
-    position: fixed;
-    width: 100%;
-    background: #111;
-    color: #fff;
-    text-align: center;
-    padding-right: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.footer .content{
-    padding-top: 10px;
-}
-
-.footer .content h2{
-    font-size: 1.2em;
-    font-weight: 400;
-}
-
-.footer .content span{
-    font-size: 0.8em;
-    margin-top: 20px;
-}
-
-.footer .content strong{
-    bottom: 0;
-    color: #cecece;
+.btn:hover{
+    background: #324ab2
 }
