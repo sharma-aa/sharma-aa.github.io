@@ -19,6 +19,7 @@ section{
     align-items: center;
     background: url(images/bkg1.png) no-repeat;
     background-size: cover;
+    background-position: center top;
 }
 
 .main .content{
@@ -57,8 +58,8 @@ section{
 }
 
 .main .content .columns-col-right .portfolio-image{
-    max-width: 150px;
-    max-height: 150px;
+    width: 150px;
+    max-width: 300px;
     border-radius: 50%;
 }
 
@@ -146,12 +147,10 @@ header .navigation{
 
 header .navigation a{
     color: #fff;
-    font-size: 1.1em;
-    font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
     font-family: "Arial Light";
-    margin-left: 25px;
+    margin-left: 20px;
     margin-top: auto;
 }
 
@@ -172,8 +171,8 @@ body{
 }
 
 .section-title{
-    font-size: 2.5em;
-    font-weight: 1000;
+    font-size: 2em;
+    font-weight: 800;
     text-transform: uppercase;
     position: relative;
     color: #409fbf;
@@ -183,7 +182,7 @@ body{
 .section-title:before{
     content: '';
     position: absolute;
-    top: 42px;
+    top: 40px;
     left: 50%;
     width: 200px;
     height: 4px;
@@ -590,7 +589,7 @@ body{
 }
 
 .contact .content .contact-icon img{
-    width: 30%;
+    width: 50px;
     margin-bottom: 5px;
     padding: 5%
 }
@@ -719,7 +718,7 @@ body{
     opacity: 1;
 }
 
-@media (max-width: 1070px){
+@media (max-width: 1100px){
     section{
         padding: 25px;
     }
@@ -778,15 +777,10 @@ body{
         transition: 0.2s ease;
     }
 
-    .main{
-        background-position: 50% 100%;
-    }
-
     .main .content{
         width: 100%;
         display: inline-block;
         padding: 0;
-        margin-top: 50px;
         align-items:center;
         justify-content: center;
         flex-direction: row;
@@ -811,12 +805,6 @@ body{
         width: 100%;
         color: #fff;
         font-size: 0.8em;
-    }
-
-    .main .content .columns-col-right .portfolio-image{
-        padding: 0;
-        margin: 0;
-        max-width: 100px;
     }
 
     .main .content .columns-col-left .media-icons{
