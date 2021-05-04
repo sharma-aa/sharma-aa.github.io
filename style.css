@@ -655,26 +655,6 @@ body{
     width: 100%;
 }
 
-
-.contact-form .button .send-btn{
-    color: #fff;
-    background: #409fbf;
-    display: inline-block;
-    font-size: 1.1em;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border: none;
-    cursor: pointer;
-    transition: 0.5s ease;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-.contact-form .button .send-btn:hover{
-    background:#324ab2;
-}
-
 .footer{
     background: #111;
     color: #fff;
