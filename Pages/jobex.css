@@ -91,11 +91,9 @@ body{
     flex-direction: column;
 }
 .content .card .head h2{
-    margin-top: 10px;
     font-size: 1.5em;
 }
 .content .card .head h3{
-    margin-top: 24.4px;
     font-size: 1.2em;
     bottom: 0;
 }
@@ -119,14 +117,6 @@ body{
     justify-content: space-between;
 }
 
-.content .card .head .card-icon{
-    display: flex;
-    position: relative;
-    width: auto;
-    margin: 5px;
-    justify-content: flex-end;
-}
-
 .content .card .head .icon{
     position: relative;
     background: rgb(15, 17, 21);
@@ -137,7 +127,7 @@ body{
 }
 
 .content .card .head .left, .right{
-    width: 40%;
+    width: 45%;
 }
 
 .content .card .head .left{
@@ -146,9 +136,11 @@ body{
 }
 
 .content .card .head .right{
-    justify-content: right;
+    justify-content: center;
     text-align: right;
+    position: relative;
 }
+
 
 .back{
     position: relative;
@@ -204,7 +196,19 @@ body{
         padding: 25px;
     }
 
+    .content .card .head .right{
+        height: auto;
+    }
+
+    .content .card .head h2{
+        font-size: 1.2em;
+    }
+
     .content .card .head h3{
-        font-size: 1.1em;
+        font-size: 1em;
+    }
+
+    .content .card .head h4{
+        font-size: 0.8em;
     }
 }
