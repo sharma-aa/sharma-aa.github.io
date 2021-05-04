@@ -96,3 +96,9 @@ header .menu-btn{
 .btn:hover{
     background: #324ab2
 }
+a:click{ 
+    border:none;
+    outline:none;
+    text-decoration:none;
+    color:inherit; 
+}

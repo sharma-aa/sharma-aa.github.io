@@ -658,7 +658,6 @@ body{
     color: #fff;
     text-align: center;
     padding-right: 10px;
-    height: 80px;
 }
 
 .footer .content{
@@ -678,6 +677,14 @@ body{
 .footer .content strong{
     bottom: 0;
     color: #cecece;
+}
+
+.footer .footer-icon{
+    width: 100%;
+}
+
+.footer .footer-icon img{
+    width: 30px;
 }
 
 .scrollToTop-btn{
