@@ -315,7 +315,7 @@ body{
 }
 
 .education .bar .utd:before{
-    width: 97.5%;
+    width: 95%;
     background: #00cc66;
 }
 
@@ -884,13 +884,12 @@ body{
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        text-align: left;
+        text-align: center;
     }
 
     .experience .content .card .title h3{
         text-transform: uppercase;
         font-weight: 800;
-        text-align: left;
         font-size: 1.2em;
     }
 

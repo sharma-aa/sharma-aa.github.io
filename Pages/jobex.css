@@ -114,6 +114,7 @@ body{
     height: 4px;
     background: #409fbf;
     border-radius: 100%;
+    text-align: left;
 }
 .content .card .head{
     display: flex;
