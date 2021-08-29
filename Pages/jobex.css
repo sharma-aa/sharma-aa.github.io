@@ -87,7 +87,7 @@ body{
 .content .card{
     background: #111;
     box-shadow: 0 5px 25px rgb(0, 0, 0);
-    font-family: 'Arial Light';
+    font-family: 'Arial';
     align-items: center;
     border-radius: 10px;
     padding: 10px;
